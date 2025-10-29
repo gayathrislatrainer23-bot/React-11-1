@@ -20,12 +20,20 @@ day-2
 4. jsx  - js xml
           html like syntax
 5.  jsx rules
-        1. one parent element
+        1.retrun only one parent element
         2. embaded js using {}
         3.inline styles -- {{}}
         4. className intea of class
 6. create a comp folder and file      import it in app
 7. props : data passing from parent comp to child comp
 
+day-3
 
+29/10/2025
 
+State : spacial memory inside comp that hold data which can change over time
+hooks: special fun:s used to state management ,life cycle metnods and  side effect
+useState : hook used to manage state.
+const [state, setState] = useState(0)
+events:action performed by user
+synthetic events : react wrap html events.
