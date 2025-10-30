@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Greetings from "./Greetings"
 
 function Counter(){
 const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ const decrement = ()=> {
         <button onClick={()=>increment()}>+</button>
         {count}
         <button onClick={()=>decrement ()}>-</button>
+        {/* <Greetings/> */}
         </>
     )
 }

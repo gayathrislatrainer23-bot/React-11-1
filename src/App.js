@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
   {/*  MAIN COMP */}
-  {/* <p className='username' style={{color:"red"}}> {userName}</p> */}
-  {/* <Greetings userName={userName}/> */}
+  <p className='username' style={{color:"red"}}> {userName}</p> 
+* <Greetings userName={userName}/>
   <Counter/>
   <Message/>
     </div>
