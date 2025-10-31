@@ -49,8 +49,8 @@ events:action performed by user
 synthetic events : react wrap html events.
 
 day-4
-
 30/10/2025
+
 object destructuring
 const student = {
   name: "Gayathri",
@@ -68,3 +68,18 @@ task :
 Show each student’s name (from props) with a Present/Absent button.
 Use state to toggle and display the attendance status.
 
+day-4
+31/10/2025
+
+listing in react  by map and key
+ternary opertor , boolean in state 
+tasks
+1. counter => reset()
+2. login button ,and islogin only show  homepage 
+      && and state
+<!-- 3. hide and show button 
+hide btn show btn-- show some message
+hide the messsage -->
+3.Show and Hide Button
+a. Create a component with content that can be toggled visible or hidden.
+b. Use a button to show or hide the content dynamically.
