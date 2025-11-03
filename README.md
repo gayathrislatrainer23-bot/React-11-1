@@ -68,7 +68,7 @@ task :
 Show each student’s name (from props) with a Present/Absent button.
 Use state to toggle and display the attendance status.
 
-day-4
+ day-5
 31/10/2025
 
 listing in react  by map and key
@@ -83,3 +83,12 @@ hide the messsage -->
 3.Show and Hide Button
 a. Create a component with content that can be toggled visible or hidden.
 b. Use a button to show or hide the content dynamically.
+
+day-6
+3/10/2025
+ternary opertor  login and $$ operator
+1. weather app ==> temp : 30 hot else cold
+ 1. need input filed 
+ 2. temp enter (0-55)
+ 3. temp bellow + image  --> && 
+ 

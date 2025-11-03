@@ -2,14 +2,16 @@
 import { useState } from "react"
 import Attendance from "./Attendance"
 function Message(){
-const [message,setMessage]=useState("welcome")
+const [message,setMessage]=useState('haii')
 
     return(
 
         <>
-        <p>Hello this is message</p>
+
+        {/* <p>Hello this is message</p> */}
         <p>{message}</p>
-        <Attendance/>
+       {/* {message &&  <Attendance/>} */}
+       <Attendance/>
         </>
 
     )
