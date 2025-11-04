@@ -33,7 +33,7 @@ return(
     {
 students?.map((student,index)=>(
     <>
-<button onClick={handleclick(student.name)} style={{backgroundColor:(student?.isPresent )? "green"  : "red"}}>{(student.isPresent )? "present"  : "absent"}</button>
+<button onClick={()=>handleclick(student.name)} style={{backgroundColor:(student?.isPresent )? "green"  : "red"}}>{(student.isPresent )? "present"  : "absent"}</button>
     <li key={index} >{student.name}</li>
     {/* <span key={index} style={{backgroundColor:(isPresent )? "green"  : "red"}}>{(isPresent )? "present"  : "absent"}</span> */}
     </>

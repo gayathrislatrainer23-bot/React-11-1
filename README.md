@@ -80,6 +80,7 @@ tasks
 <!-- 3. hide and show button 
 hide btn show btn-- show some message
 hide the messsage -->
+task
 3.Show and Hide Button
 a. Create a component with content that can be toggled visible or hidden.
 b. Use a button to show or hide the content dynamically.
