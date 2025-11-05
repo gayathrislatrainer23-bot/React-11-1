@@ -93,3 +93,10 @@ ternary opertor  login and $$ operator
  2. temp enter (0-55)
  3. temp bellow + image  --> && 
  
+day-7
+4/10/2025
+revise
+
+day-8
+5/10/2025
+
