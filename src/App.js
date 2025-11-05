@@ -1,9 +1,11 @@
 
 import './App.css';
-import Counter from './components/Counter';
+import Counter from './components/counter/Counter';
+import Fruit from './components/Fruit';
 import Greetings from './components/Greetings';
 import LogIn from './components/LogIn';
 import Message from './components/Message';
+import StudentList from './components/StudentList';
 function App() {
  const userName ="Manu"
 
@@ -14,8 +16,10 @@ function App() {
   <input/>
 * <Greetings userName={userName}/>
   <Counter/>
-  <Message/>
+  {/* <Message/> */}
   <LogIn/>
+  <StudentList/>
+  <Fruit/>
     </div>
 
   );

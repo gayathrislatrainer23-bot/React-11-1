@@ -99,4 +99,20 @@ revise
 
 day-8
 5/10/2025
+list and key
+class task: 1. list some list of fruits in array(for of loop)
+         2. list of vagitable and price  object 
 
+list 
+vagitables =[
+  {
+    name: "carrot",
+    color:"orange",
+    price: 30
+  },
+  {
+   name: "potato",
+   color: "brown",
+   price: 20
+  }
+]
