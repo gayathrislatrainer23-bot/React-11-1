@@ -181,6 +181,8 @@ colors.map((color,index)=>(
 
 
 list
+day-10
+7/11/2025
 
 1. Table Task
  Create a JSX component that shows a student details table.
