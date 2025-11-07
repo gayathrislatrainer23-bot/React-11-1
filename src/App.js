@@ -6,20 +6,22 @@ import Greetings from './components/Greetings';
 import LogIn from './components/LogIn';
 // import Message from './components/Message';
 import StudentList from './components/StudentList';
+import StudentTable from './components/StudentTable';
 function App() {
  const userName =["Manu","Malu"]
 
   return (
     <div className="App">
   {/*  MAIN COMP */}
-  <p className='username' style={{color:"red"}}> {userName}</p> 
-  <input/>
-* <Greetings userName={userName}/>
-  <Counter/>
+  {/* <p className='username' style={{color:"red"}}> {userName}</p>  */}
+
+{/* * <Greetings userName={userName}/>
+  <Counter/> */}
   {/* <Message/> */}
-  <LogIn/>
+  {/* <LogIn/>
   <StudentList/>
-  <Fruit/>
+  <Fruit/> */}
+  <StudentTable/>
     </div>
 
   );

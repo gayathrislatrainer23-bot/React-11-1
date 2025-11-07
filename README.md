@@ -178,3 +178,31 @@ props - ["Red", "Blue", "Yellow"]
 colors.map((color,index)=>(
 <!-- list -->
 ))
+
+
+list
+
+1. Table Task
+ Create a JSX component that shows a student details table.
+ Columns: Roll No, Name, Grade.
+ Add at least 3 rows with sample data.
+ Use className="student-table" for the table.
+Expected Output:
+Roll No
+Name
+Grade
+1
+Anitha
+A
+2
+Rahul
+B
+3
+Deepak
+A+
+
+learn on monday
+1. select (drop down)
+2.  Form (submit)
+
+
