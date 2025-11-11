@@ -11,7 +11,7 @@ useEffect(()=>{
 
 useEffect(()=>{
     // side effect ode
-    console.log("I  am here initally render")
+    console.log("I  am here ONLY inital render")
 },[])
 useEffect(()=>{
     // side effect ode
