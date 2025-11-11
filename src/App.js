@@ -5,6 +5,7 @@ import Form from './components/Form';
 import Fruit from './components/Fruit';
 import Greetings from './components/Greetings';
 import LogIn from './components/LogIn';
+import SideEffect from './components/SideEffect';
 // import Message from './components/Message';
 import StudentList from './components/StudentList';
 import StudentTable from './components/StudentTable';
@@ -22,8 +23,9 @@ function App() {
   {/* <LogIn/>
   <StudentList/>
   <Fruit/> */}
-  <StudentTable/>
-  <Form/>
+  {/* <StudentTable/>
+  <Form/> */}
+  <SideEffect userName ={userName}/>
     </div>
 
   );

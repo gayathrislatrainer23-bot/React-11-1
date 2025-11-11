@@ -236,3 +236,51 @@ Date of Birth (date input)
  Use proper className for each input (e.g., "form-input", "form-label").
   Display below the form:
  Student Registered: [Name] - [Age] years old
+
+day-11
+10/11/2025
+
+task:
+3. Dropdown (Select) Task
+  Create a dropdown (<select>) to choose a student name.
+  Options: Anitha, Rahul, Deepak, Gayathri.
+  Default option: "Select a student".
+  Display below:
+ You selected: [student name]
+
+ usEffect -- > hook in react -- handling side effect 
+
+ login --> post ---> api
+navigate to dashboard
+--> render --> side effect  --> products api -->
+
+useEffect ??
+syntax:
+
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 1 --> run after all renders
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 2 --> run after initial render
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[])
+dependancy - array - second argument in useEffect
+
+case: 3 --> run after state change  render
+
+const [name, setNAme] =useState("")
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[name,age])
+
+ console : 1.you are logged in  all
+ alert : 2. the page is loaded   []
+ alert : 3.you are loggedin / you are not loggedin  [state]
