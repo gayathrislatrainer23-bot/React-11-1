@@ -208,3 +208,31 @@ learn on monday
 2.  Form (submit)
 
 
+day-11
+10/11/2025
+
+form submit
+ Class task : email
+ controlled compm : component controlled by react state
+ uncontrolled compm : component controlled by dom itself
+
+ 2. Form Task
+ Create a Student Registration Form with the following inputs:
+Name (text input)
+
+
+Age (number input)
+
+
+Email (email input)
+
+
+Password (password input)
+
+
+Date of Birth (date input)
+
+
+ Use proper className for each input (e.g., "form-input", "form-label").
+  Display below the form:
+ Student Registered: [Name] - [Age] years old

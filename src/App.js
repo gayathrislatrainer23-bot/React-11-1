@@ -1,6 +1,7 @@
 
 import './App.css';
 import Counter from './components/counter/Counter';
+import Form from './components/Form';
 import Fruit from './components/Fruit';
 import Greetings from './components/Greetings';
 import LogIn from './components/LogIn';
@@ -22,6 +23,7 @@ function App() {
   <StudentList/>
   <Fruit/> */}
   <StudentTable/>
+  <Form/>
     </div>
 
   );

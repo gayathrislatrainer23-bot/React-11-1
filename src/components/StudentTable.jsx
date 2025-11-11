@@ -22,13 +22,11 @@ const students =[
     return(
 <div className="studentTable">
     <table>
-        <thead>
-            <tr>
-                <th>rollNo</th>
-                <th>name</th>
-                <th>grade</th>
-            </tr>
-        </thead>
+      <thead>
+                    <tr>Roll No</tr>
+                    <tr>Name</tr>
+                    <tr>Grade</tr>
+                </thead>
         <tbody>
             {
                 students?.map((student, index)=>(
