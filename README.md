@@ -290,3 +290,37 @@ day-11
 TASK:
  4️ Feedback Form – Username, Rating (1–5), Comment.
  Display submitted feedback below form.
+
+ day-12
+13/11/2025
+
+Router dom  --> used to routes pages
+install library
+
+  <BrowserRouter>
+  <!-- main wraper of router dom -->
+
+<nav>
+  <Link to={"/home"}>Home</Link>
+  <Link to={"/about"}>About</Link>
+  <!-- link the path -->
+</nav>
+  <Routes>
+    <!--wrapet for collecting each routes router dom -->
+
+<Route path='/home' element ={<Home/>} />
+<Route path='/about' element ={<About/>} />
+<!-- defining the path for each page -->
+  </Routes>
+  </BrowserRouter>
+
+ task :1
+ 
+Full name = state ==> string
+user => first and last name inputs
+first --> state
+last --> state
+useeffect(()=>{
+  setFullName(`${first} ${last}`)
+},[first,last])
+2 inputs
