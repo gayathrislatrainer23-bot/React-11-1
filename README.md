@@ -324,3 +324,14 @@ useeffect(()=>{
   setFullName(`${first} ${last}`)
 },[first,last])
 2 inputs
+
+ day-15
+14/11/2025
+Router dom -->
+Home
+about
+login
+profile -->img 
+
+navigate() --> NAVIGATE TO NEXT page
+pathparams() -->  can pass data through url
