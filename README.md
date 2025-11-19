@@ -339,10 +339,42 @@ pathparams() -->  can pass data through url
 17/11/2025
 
 todo list
-1. todo input filed +button
+1. todo input field +button
 2. show list
-<!-- 3. update  -->
+3. update 
 4. delete 
 5. date add.
 
 routing
+
+18/11/2025
+
+todo list
+
+19/11/2025
+
+Create a counter in React that increases by 1 when a button is clicked.
+Check if the counter number is even or odd.
+If the number is even, display “Patient go to Room 3”.
+If the number is odd, display “Patient go to Room 4”.
+If the number is 0, please Wait .
+
+
+Create a React input where the user enters temperature.
+If temperature is above 40, display “High Fever”.
+If temperature is between 30–40, display “Normal”.
+If below 30, display “Low Temperature”.
+
+
+Create an input for age in React.
+If age is below 13, show “Child”.
+If age is 13–19, show “Teenager”.
+If age is 20 or above, show “Adult”.
+
+Create an input for vehicle speed.
+If speed > 80 show “Over Speeding”.
+If speed 40–80 show “Normal Speed”.
+If speed < 40 show “Too Slow”.
+
+task:
+Create a simple product list with at least three items, each having a name and price. Display all the products on the screen with an “Add to Cart” button next to each. When a user clicks the button, add that product to a cart array and show all the selected items below. Allow the user to remove any item from the cart. Finally, display the total number of items in the cart at the top.

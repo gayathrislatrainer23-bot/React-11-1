@@ -43,12 +43,11 @@ const _id =123
 
 </nav>
   <Routes>
-
 <Route path='/home' element ={<Home/>} />
 <Route path='/about' element ={<About/>} />
 <Route path='/login' element ={<Login/>} />
 <Route path='/profile/:username/:_id' element ={<Profile/>} />
-  </Routes>
+</Routes>
   </BrowserRouter>
     </div>
 
