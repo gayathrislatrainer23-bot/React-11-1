@@ -378,3 +378,11 @@ If speed < 40 show “Too Slow”.
 
 task:
 Create a simple product list with at least three items, each having a name and price. Display all the products on the screen with an “Add to Cart” button next to each. When a user clicks the button, add that product to a cart array and show all the selected items below. Allow the user to remove any item from the cart. Finally, display the total number of items in the cart at the top.
+
+21/11/2025
+revise
+TASK:
+ Dropdown Country & City Selector
+a. Create two dropdowns: one for countries and one for cities.
+b. The city dropdown should update dynamically based on the selected
+    country.
