@@ -15,6 +15,7 @@ import About from './pages/About';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Country from './components/Country';
+import ReduxCounter from './components/ReduxCounter';
 function App() {
 //  const userName =["Manu","Malu"]
 const username ="Jaya suriya"
@@ -47,6 +48,7 @@ const _id =123
 <Route path='/home' element ={<Home/>} />
 <Route path='/about' element ={<About/>} />
 <Route path='/login' element ={<Login/>} />
+<Route path='/counter' element ={<ReduxCounter/>} />
 <Route path='/c' element ={<Country/>} />
 <Route path='/profile/:username/:_id' element ={<Profile/>} />
 </Routes>

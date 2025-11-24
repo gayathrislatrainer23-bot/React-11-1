@@ -386,3 +386,8 @@ TASK:
 a. Create two dropdowns: one for countries and one for cities.
 b. The city dropdown should update dynamically based on the selected
     country.
+
+24/11/2025
+    npm install @reduxjs/toolkit react-redux
+
+    https://redux.js.org/tutorials/quick-start
