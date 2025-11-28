@@ -9,6 +9,7 @@ const counterSlice = createSlice(
     reducers: {
 increment :(state,action)=>{
 // state.value += 1
+console.log(action)
  state.value =state.value + 1
  
 

@@ -16,6 +16,10 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Country from './components/Country';
 import ReduxCounter from './components/ReduxCounter';
+import ReduxMessage from './components/ReduxMessage';
+import LoginForm from './components/LoginForm';
+import ReducerHook from './components/ReducerHook';
+import NotFound from './components/NotFound';
 function App() {
 //  const userName =["Manu","Malu"]
 const username ="Jaya suriya"
@@ -41,6 +45,7 @@ const _id =123
   <Link to={"/home"}>Home</Link>
   <Link to={"/about"}>About</Link>
   <Link to={"/login"}>Login</Link>
+  <Link to={"/logi"}>Log</Link>
   <Link to={`/profile/:${username}/:${_id}`}>profile</Link>
 
 </nav>
@@ -48,8 +53,12 @@ const _id =123
 <Route path='/home' element ={<Home/>} />
 <Route path='/about' element ={<About/>} />
 <Route path='/login' element ={<Login/>} />
+<Route path='/loginForm' element ={<LoginForm/>} />
 <Route path='/counter' element ={<ReduxCounter/>} />
+<Route path='/message' element ={<ReduxMessage/>} />
+<Route path='/reducer' element ={<ReducerHook/>} />
 <Route path='/c' element ={<Country/>} />
+<Route path='/*' element ={<NotFound/>} />
 <Route path='/profile/:username/:_id' element ={<Profile/>} />
 </Routes>
   </BrowserRouter>
