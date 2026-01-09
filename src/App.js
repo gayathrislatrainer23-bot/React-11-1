@@ -12,8 +12,8 @@ import StudentTable from './components/StudentTable';
 import {BrowserRouter,Link,Route,Routes} from 'react-router-dom'
 
 // context api
-import LoginContext from './components/advancedHook/cotext/LoginContext';
-import { AuthProvider } from "./components/advancedHook/cotext/AuthContext";
+import LoginContext from './components/advancedHook/context/LoginContext';
+import { AuthProvider } from "./components/advancedHook/context/AuthContext";
 
 
 import Home from './pages/Home';
