@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Login =()=>{
+    
  const [email,setLogin] =useState("")
  const navigate = useNavigate()
     const handleSubmit =(e)=>{

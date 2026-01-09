@@ -4,12 +4,12 @@ day-1
    dom
 2. React
 3. Library
-4. Npm
+4. Npm- node 
 5. node 
 6. node installation
 7. create react app 
 8. Babel -- compailer/ transpailer -convert jsx to pure js
-
+9. statc and dynamic website
 day-2
 
 28/10/2025
@@ -391,3 +391,32 @@ b. The city dropdown should update dynamically based on the selected
     npm install @reduxjs/toolkit react-redux
 
     https://redux.js.org/tutorials/quick-start
+
+
+    9/1/2026
+
+What is a Custom Hook?
+A custom hook is a JavaScript function in React that:
+Starts with use
+Reuses stateful logic
+Uses built-in hooks like useState, useEffect, etc.
+
+hy use a Custom Hook?
+
+Without custom hooks:
+
+Same logic repeated in multiple components 
+
+Components become large and messy 
+
+With custom hooks:
+
+Logic is reusable 
+
+Components stay simple 
+
+What is Context API? (Simple Explanation)
+
+Context API is a feature in React used to share data globally across components without passing props manually at every level.
+
+
