@@ -4,7 +4,7 @@ import axios from 'axios'
 const LoginForm = () =>{
 // const[ isLogin , setIsLogin] =useState(false)
 const [email, setEmail] = useState('')
-const handleSubmit =(e)=>{
+const handleSubmit =async (e)=>{
     e.preventDefault()
    let  userData ={
         email : email,
@@ -22,7 +22,7 @@ axios.post('https://jsonplaceholder.typicode.com/posts',userData)
     return(
         <div className="login">
             <form action="" onSubmit={handleSubmit}>
-                    <input type="email" value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder="Enter your Name"/>
+                    <input type="email" value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder="Enter your Email"/>
                 {/* <input type="password" /> */}
                 <button type="submit">Login</button>
             </form>

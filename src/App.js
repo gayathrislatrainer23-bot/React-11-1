@@ -39,13 +39,13 @@ const _id =123
   return (
     <div className="App">
       {/* context api */}
-    <AuthProvider>
+    {/* <AuthProvider>
       <LoginContext />
-    </AuthProvider>
+    </AuthProvider> */}
 
     {/* custom hook */}
-    <CounterComponent/>
-    <Users/>
+    {/* <CounterComponent/>
+    <Users/> */}
   {/*  MAIN COMP */}
   {/* <p className='username' style={{color:"red"}}> {userName}</p>  */}
 
@@ -82,6 +82,7 @@ const _id =123
 <Route path='/c' element ={<Country/>} />
 <Route path='/*' element ={<NotFound/>} />
 <Route path='/profile/:username/:_id' element ={<Profile/>} />
+<Route path='/profile' element ={<Profile/>} />
 </Routes>
   </BrowserRouter>
     </div>
