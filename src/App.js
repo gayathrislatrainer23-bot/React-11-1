@@ -10,16 +10,16 @@ import SideEffect from './components/SideEffect';
 import StudentList from './components/StudentList';
 import StudentTable from './components/StudentTable';
 import {BrowserRouter,Link,Route,Routes} from 'react-router-dom'
-
+import  { lazy, Suspense, useState } from 'react';
 // context api
 import LoginContext from './components/advancedHook/context/LoginContext';
 import { AuthProvider } from "./components/advancedHook/context/AuthContext";
 
 
 import Home from './pages/Home';
-import About from './pages/About';
+// import About from './pages/About';
 import Login from './pages/Login';
-import Profile from './pages/Profile';
+// import Profile from './pages/Profile';
 import Country from './components/Country';
 import ReduxCounter from './components/ReduxCounter';
 import ReduxMessage from './components/ReduxMessage';
@@ -30,14 +30,25 @@ import UseEff from './components/Effect/UseEff';
 import UseEff2 from './components/Effect/UseEff2';
 import CounterComponent from './components/advancedHook/CustomHook/CounterComponent';
 import Users from './components/advancedHook/CustomHook/Users';
+const About = lazy(()=>import('./pages/About'))
+const Profile = lazy(()=>import('./pages/Profile'))
 
 function App() {
 //  const userName =["Manu","Malu"]
+const [show,setShow] = useState(false)
 const username ="Jaya suriya"
 const _id =123
 
   return (
     <div className="App">
+      <button onClick={()=>setShow(!show)}> more..</button>
+     {
+      show && 
+     <Suspense fallback={<h6>Loading...</h6>}>
+        <About/>
+        <Profile/>
+      </Suspense>
+     } 
       {/* context api */}
     {/* <AuthProvider>
       <LoginContext />
@@ -70,7 +81,7 @@ const _id =123
 
 </nav> */}
   <Routes>
-<Route path='/' element={<UseEff/>}></Route>
+{/* <Route path='/' element={<UseEff/>}></Route> */}
 <Route path='/effect' element={<UseEff2/>}/>
 <Route path='/home' element ={<Home/>} />
 <Route path='/about' element ={<About/>} />
